@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Finnovationz</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style type="text/css">
+        .arrow{
+            position: absolute;
+            display: block;
+            margin-top: 3%;
+            margin-left: 3%;
+        }
+        .close{
+            position: absolute;
+            display: block;
+            margin-top: 3%;
+            margin-left: 88%;
+            color: #e2e2e2;
+        }
+        .heading{
+            position: absolute;
+            display: block;
+            margin-top: 0%;
+            margin-left: 20%;
+        }
+        .form1{
+            position: absolute;
+            margin-top: 20%;
+            margin-left: 5%;
+        }
+        fieldset {
+            -webkit-border-radius: 8px;
+            -moz-border-radius: 8px;
+            border-radius: 8px;
+            width: 150%;
+            height: 10%;
+            align-items: center;
+        }
+        .info{
+            position: absolute;
+            margin-top: 37%;
+            margin-left: 3%;
+        }
+        .button {
+            background-color: white;
+            border: none;
+            color: #A9A9A9;
+            padding: 2% 28px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 95%;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 40px;
+        }
+        .button:hover{
+            background-color: #0273f3;
+            color: white;
+        }
+        .button4 {
+            background-color: white;
+            color: #A9A9A9;
+            border: 2px solid #A9A9A9;
+        }
+        .pos-but{
+            position: absolute;
+            margin-top: 55%;
+            margin-left: 3%;
+        }
+        ul {list-style: none}
+        
+        li::before {
+            content: "•"; 
+            font-size: 130%;
+            color:#50dbff;
+            display: inline-block; 
+            width: 1em;
+            margin-left: -1em;
+        }
+        ul.dotted {
+            border-style: dotted;
+            padding: 5%; 
+            padding-left: 10%; 
+            border-radius: 15px; 
+            border-color: #50dbff; 
+            margin-top: 80%;
+            margin-left:5%;
+            margin-right: 5%;
+        }
+        .tc{
+            position: absolute;
+            margin-top:40% ;
+            margin-left: 7%;
+        }
+        .cb{
+            color: #50dbff ;
+        }
+        .invest{
+            position: absolute;
+            margin-top: 50%;
+            margin-left: 3%;
+            color: white ;
+            background-color: #0273f3;
+            border-radius: 15px;
+            width: 340px;
+            height: 50px;
+            padding: 7px 40px;
+            font-family: Montserrat;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    </style>
+        </head>
+        <body>
+            <span>
+                <div class="arrow">
+                    <img src="images/arrows.png" style="height: 30px;">
+                </div>
+            </span>
+            <span>
+                <div class="close">
+                    <img src="images/close.png" style="height: 30px;">
+                </div>
+            </span>
+            <span>
+                <div class="heading">
+                    <h3 style="font-family: montserrat;color: #4a3cc7; font-size: 25px;">INVEST LUMSUM</h3>
+                </div>
+            </span>
+            <br>
+            <form class= "form1" action="/action_page.php">
+                <fieldset>
+                <legend style="color: #A9A9A9;">Amount(Min 500)</legend>
+                <input type="number" id="value" name="value" style="border: none; border-color: transparent;" >
+                </fieldset>
+            </form>
+            <span class="info"><p style="color: #A9A9A9;"><i style="font-size:24px" class="fa">&#xf05a;</i> This amount will be debited from your account</p></span>
+            <span class="pos-but">
+                <button class="button button4">10000</button>
+                <button class="button button4">50000</button>
+                <button class="button button4">1 Lakh</button>
+            </span>
+                <ul class="dotted">
+                <li style="color: #A9A9A9;">Minimum amount to invest is Rs. 10,000</li>
+                <li style="color: #A9A9A9;">1% deduction if redeemed within 1 year</li>
+            </ul>
+            <form class="tc">
+                    <input type="checkbox" class="cb" name="tc" value="tc">
+                    <label for="vehicle1" style="color: #A9A9A9;"> I agree to the <span><a href="#" style="color:#0273f3; text-decoration: none;">terms and conditions</a></span> of this</label><br>
+                </form>
+                <button class="invest">INVEST NOW</button>
+            
+        </body>
+        </html>
